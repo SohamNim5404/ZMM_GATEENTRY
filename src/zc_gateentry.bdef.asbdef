@@ -1,0 +1,9 @@
+projection;
+strict ( 2 );
+
+define behavior for ZC_GATEENTRY alias zi_gate_doc
+{
+  use update;
+
+  use action ZPRINT;
+}
